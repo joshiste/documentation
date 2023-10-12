@@ -8937,6 +8937,23 @@ api:
       unstable:
         - v2
       order: 1
+  - name: Containers
+    url: /api/latest/containers/
+    identifier: containers
+    generated: true
+  - name: Get All Containers
+    url: '#get-all-containers'
+    identifier: containers-get-all-containers
+    parent: containers
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - ListContainers
+      unstable:
+        - v2
+      order: 1
   - name: Fastly Integration
     url: /api/latest/fastly-integration/
     identifier: fastly-integration
